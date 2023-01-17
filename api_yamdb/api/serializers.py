@@ -23,7 +23,7 @@ class UserEditSerializer(serializers.ModelSerializer):
 
 
 class RegisterSerializer(serializers.Serializer):
-    """Сериализатор для регистрации.
+    """Сериализатор для регистрации
     """
     username = serializers.CharField(
         validators=[
