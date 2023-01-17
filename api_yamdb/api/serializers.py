@@ -96,7 +96,7 @@ class CommentSerializer(serializers.ModelSerializer):
 
 
 class ReviewSerializer(serializers.ModelSerializer):
-    """Серилизатор обзоров"""
+    """Серилизатор обзоров."""
     author = serializers.SlugRelatedField(
         slug_field='username',
         read_only=True,
