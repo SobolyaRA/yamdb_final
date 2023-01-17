@@ -4,7 +4,7 @@ from reviews.validators import validate_username
 
 
 class UserSerializer(serializers.ModelSerializer):
-    """Сериализатор для User.
+    """Сериализатор для User
     """
     class Meta:
         fields = ('username', 'email', 'first_name',
