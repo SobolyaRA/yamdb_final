@@ -13,7 +13,7 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class UserEditSerializer(serializers.ModelSerializer):
-    """Сериализатор для редактирования профиля.
+    """Сериализатор для редактирования профиля
     """
     class Meta:
         fields = ('username', 'email', 'first_name',
