@@ -13,7 +13,7 @@ https://github.com/SobolyaRA/api_final_yatube
 http://130.193.48.183/redoc/
 
 
-## Описание
+## Описание:
 Для проекта YaMDb настроены Continuous Integration и Continuous Deployment, реализовано:
  * автоматический запуск тестов,
  * обновление образов на Docker Hub,
